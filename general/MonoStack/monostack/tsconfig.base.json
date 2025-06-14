@@ -16,6 +16,9 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
+    "paths": {
+      "@monostack/*": ["apps/frontend/src/*"]
+    },
     "customConditions": ["development"]
   }
 }
