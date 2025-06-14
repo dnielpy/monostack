@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build frontend --skip-nx-cache",
+    "startTime": "2025-06-14T21:09:16.626Z",
+    "endTime": "2025-06-14T21:09:40.689Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "frontend:build",
+      "target": "build",
+      "projectName": "frontend",
+      "hash": "2973948878641437628",
+      "startTime": "2025-06-14T21:09:16.644Z",
+      "endTime": "2025-06-14T21:09:40.673Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

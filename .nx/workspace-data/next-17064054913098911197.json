@@ -1,0 +1,185 @@
+{
+  "3829547509627662943": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/frontend",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/frontend/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/frontend/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/frontend"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/frontend"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/frontend"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects frontend --includeDependentProjects -- pnpm exec nx build-deps frontend"
+    }
+  },
+  "6875256052884116534": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/frontend",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/frontend/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/frontend/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/frontend"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/frontend"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/frontend"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects frontend --includeDependentProjects -- pnpm exec nx build-deps frontend"
+    }
+  },
+  "17612036551062862300": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "dist/apps/frontend",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/dist/apps/frontend/.next/!(cache)/**/*",
+        "{workspaceRoot}/dist/apps/frontend/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "dist/apps/frontend"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "dist/apps/frontend"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "dist/apps/frontend"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    }
+  }
+}

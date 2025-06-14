@@ -1,0 +1,444 @@
+{
+  "apps/frontend": {
+    "root": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.continuous": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.executor": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options.command": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.continuous": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.dependsOn": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.executor": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options.cwd": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options.command": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.continuous": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.dependsOn": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.cwd": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.command": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.continuous": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.lint": [
+      "apps/frontend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/frontend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/frontend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/frontend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/frontend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/frontend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/frontend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/frontend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/frontend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/frontend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/frontend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/frontend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/frontend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/frontend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/frontend/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "apps/frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "apps/frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "apps/frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "apps/frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "apps/frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.root": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.dev": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "dist/apps/frontend": {
+    "root": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.cache": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.inputs": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.outputs": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.executor": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.tty": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.command": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.continuous": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.executor": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options.command": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.continuous": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.dependsOn": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.executor": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options.cwd": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options.command": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.continuous": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.dependsOn": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.cwd": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.command": [
+      "dist/apps/frontend/next.config.js",
+      "@nx/next/plugin"
+    ]
+  },
+  "apps/backend": {
+    "root": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.cwd": [
+      "apps/backend/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}
