@@ -1,1 +1,2 @@
+pnpm nx build frontend --skip-nx-cache
 npx lint-staged
