@@ -1,0 +1,16 @@
+{
+    "name": "monostack",
+    "targets": {
+      "serve-all": {
+        "executor": "nx:run-commands",
+        "options": {
+          "commands": [
+            "pnpm nx serve frontend",
+            "pnpm nx serve backend"
+          ],
+          "parallel": true
+        }
+      }
+    }
+  }
+  
