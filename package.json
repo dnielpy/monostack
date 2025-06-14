@@ -6,11 +6,11 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{js,ts,tsx,jsx,json,css,md}": [
-      "prettier --write",
-      "eslint --fix"
-    ]
-  },
+  "apps/frontend/**/*.{js,ts,tsx,jsx,json,css,md}": [
+    "prettier --write",
+    "eslint --fix"
+  ]
+},
   "private": true,
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
