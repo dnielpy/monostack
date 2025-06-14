@@ -1,0 +1,14 @@
+{
+    "name": "backend",
+    "sourceRoot": "apps/backend/src",
+    "projectType": "application",
+    "targets": {
+      "serve": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "python3 src/main.py",
+          "cwd": "apps/backend"
+        }
+      }
+    }
+  }
