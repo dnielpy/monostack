@@ -1,0 +1,19 @@
+FROM node:20-alpine
+WORKDIR /app
+
+# Copiar archivos del monorepo raíz
+COPY package.json pnpm-lock.yaml ./
+
+RUN npm install -g pnpm
+RUN pnpm install --frozen-lockfile
+
+# Copiar el código frontend
+COPY apps/frontend ./apps/frontend
+
+# Ejecutar build desde la raíz, solo frontend
+RUN pnpm --filter frontend next build
+
+EXPOSE 3000
+
+# Ejecutar start desde la raíz con filtro frontend
+CMD ["pnpm", "--filter", "frontend", "next", "start"]
